@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "GraphicMaker"
+version = "0.1"
+dependencies = [
+  "nicegui==1.4.20",
+]
+
+requires-python = ">=3.8"
+authors = [
+  {name = "Frank van Paassen", email = "frankvanpaassen4@gmail.com"},
+]
+
+maintainers = [
+  {name = "Frank van Paassen", email = "frankvanpaassen4@examplegmail.com"}
+]
+description = "A package to make svg graphics"
+
+license = {file = "LICENSE.txt"}
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
